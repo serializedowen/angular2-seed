@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose readDependencies loading dependencies from /Users/OwenWang/Documents/angular2-seed/package.json
+5 warn package.json angular2-quickstart@1.0.0 No description
+6 warn package.json angular2-quickstart@1.0.0 No repository field.
+7 warn package.json angular2-quickstart@1.0.0 No README data
+8 verbose install where, deps [ '/Users/OwenWang/Documents/angular2-seed',
+8 verbose install   [ 'angular2',
+8 verbose install     'bootstrap',
+8 verbose install     'es6-promise',
+8 verbose install     'es6-shim',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'systemjs',
+8 verbose install     'zone.js',
+8 verbose install     'concurrently',
+8 verbose install     'lite-server',
+8 verbose install     'typescript' ] ]
+9 verbose install where, peers [ '/Users/OwenWang/Documents/angular2-seed', [] ]
+10 verbose installManyTop reading for lifecycle /Users/OwenWang/Documents/angular2-seed/package.json
+11 info preinstall angular2-quickstart@1.0.0
+12 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/angular2/package.json
+13 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/bootstrap/package.json
+14 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/concurrently/package.json
+15 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/es6-promise/package.json
+16 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/es6-shim/package.json
+17 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/lite-server/package.json
+18 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/reflect-metadata/package.json
+19 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/rxjs/package.json
+20 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/systemjs/package.json
+21 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/typescript/package.json
+22 verbose installManyTop reading scoped package data from /Users/OwenWang/Documents/angular2-seed/node_modules/zone.js/package.json
+23 verbose readDependencies loading dependencies from /Users/OwenWang/Documents/angular2-seed/package.json
+24 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/angular2/package.json
+25 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/bootstrap/package.json
+26 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/concurrently/package.json
+27 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/es6-promise/package.json
+28 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/es6-shim/package.json
+29 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/lite-server/package.json
+30 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/reflect-metadata/package.json
+31 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/rxjs/package.json
+32 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/systemjs/package.json
+33 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/typescript/package.json
+34 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/zone.js/package.json
+35 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/.bin/concurrent/package.json
+36 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/.bin/concurrently/package.json
+37 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/.bin/lite-server/package.json
+38 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/.bin/tsc/package.json
+39 verbose targetResolver reading package data from /Users/OwenWang/Documents/angular2-seed/node_modules/.bin/tsserver/package.json
+40 verbose already installed skipping lite-server@^2.1.0 /Users/OwenWang/Documents/angular2-seed
+41 verbose already installed skipping typescript@^1.7.5 /Users/OwenWang/Documents/angular2-seed
+42 verbose already installed skipping angular2@2.0.0-beta.7 /Users/OwenWang/Documents/angular2-seed
+43 verbose already installed skipping bootstrap@^3.3.6 /Users/OwenWang/Documents/angular2-seed
+44 verbose already installed skipping es6-promise@^3.0.2 /Users/OwenWang/Documents/angular2-seed
+45 verbose already installed skipping es6-shim@^0.33.3 /Users/OwenWang/Documents/angular2-seed
+46 verbose already installed skipping reflect-metadata@0.1.2 /Users/OwenWang/Documents/angular2-seed
+47 verbose already installed skipping rxjs@5.0.0-beta.2 /Users/OwenWang/Documents/angular2-seed
+48 verbose already installed skipping systemjs@0.19.22 /Users/OwenWang/Documents/angular2-seed
+49 verbose already installed skipping zone.js@0.5.15 /Users/OwenWang/Documents/angular2-seed
+50 verbose already installed skipping concurrently@^2.0.0 /Users/OwenWang/Documents/angular2-seed
+51 silly install resolved []
+52 info build /Users/OwenWang/Documents/angular2-seed
+53 info linkStuff angular2-quickstart@1.0.0
+54 silly linkStuff angular2-quickstart@1.0.0 has /Users/OwenWang/Documents as its parent node_modules
+55 verbose linkBins angular2-quickstart@1.0.0
+56 verbose linkMans angular2-quickstart@1.0.0
+57 verbose rebuildBundles angular2-quickstart@1.0.0
+58 verbose rebuildBundles [ '.bin',
+58 verbose rebuildBundles   'angular2',
+58 verbose rebuildBundles   'bootstrap',
+58 verbose rebuildBundles   'concurrently',
+58 verbose rebuildBundles   'es6-promise',
+58 verbose rebuildBundles   'es6-shim',
+58 verbose rebuildBundles   'lite-server',
+58 verbose rebuildBundles   'reflect-metadata',
+58 verbose rebuildBundles   'rxjs',
+58 verbose rebuildBundles   'systemjs',
+58 verbose rebuildBundles   'typescript',
+58 verbose rebuildBundles   'zone.js' ]
+59 info install angular2-quickstart@1.0.0
+60 info postinstall angular2-quickstart@1.0.0
+61 verbose unsafe-perm in lifecycle true
+62 info angular2-quickstart@1.0.0 Failed to exec postinstall script
+63 verbose stack Error: angular2-quickstart@1.0.0 postinstall: `typings install`
+63 verbose stack Exit status 1
+63 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+63 verbose stack     at EventEmitter.emit (events.js:110:17)
+63 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+63 verbose stack     at ChildProcess.emit (events.js:110:17)
+63 verbose stack     at maybeClose (child_process.js:1015:16)
+63 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+64 verbose pkgid angular2-quickstart@1.0.0
+65 verbose cwd /Users/OwenWang/Documents/angular2-seed
+66 error Darwin 14.5.0
+67 error argv "node" "/usr/local/bin/npm" "install"
+68 error node v0.12.6
+69 error npm  v2.11.2
+70 error code ELIFECYCLE
+71 error angular2-quickstart@1.0.0 postinstall: `typings install`
+71 error Exit status 1
+72 error Failed at the angular2-quickstart@1.0.0 postinstall script 'typings install'.
+72 error This is most likely a problem with the angular2-quickstart package,
+72 error not with npm itself.
+72 error Tell the author that this fails on your system:
+72 error     typings install
+72 error You can get their info via:
+72 error     npm owner ls angular2-quickstart
+72 error There is likely additional logging output above.
+73 verbose exit [ 1, true ]
