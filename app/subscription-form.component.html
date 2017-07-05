@@ -1,0 +1,18 @@
+<form #f="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input 
+                id="name" 
+                #name="ngForm" 
+                ngControl="name" 
+                type="text" 
+                class="form-control" 
+                required minlength="3">
+            <div class="alert alert-danger" *ngIf="!name.valid">Name not valid</div>
+        </div>
+        <div class="form-control" id="email">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" ngControl="email" required>
+        </div>
+        <div class="form-control" id="freq"></div>
+</form>

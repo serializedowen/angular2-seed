@@ -1,0 +1,34 @@
+directives is similar to components  just without template
+
+Component only deligate to the servers  
+    Service is responsible from retrieving data from servers
+
+
+Providers are essentially interfaces  , you need to register them within the container
+
+
+
+prperty binding :[]   <img [src] = ""/>
+event binding : ()   <button (click)="Handler($event)"/>
+[style.***]
+[class.***]
+
+model (two way binding) : [(ngModel)]="name"
+
+input decorator  (import from angular2/core) use like "Input('optional_alias') variable = ..."
+same for output decorator
+
+EventEmitter (in angular/core)   for emitting custom events. 
+
+
+angular pipes :   number | currency | number | upperlowercase | date: 'shortDate‘ 
+
+        json pipe (output the actual object instead of object : object)
+
+
+
+[ngClass]="{   (same for ngStyle)
+    'class1'= boolean,
+    'class2'= boolean "}
+
+<ng-content selector="className"></ng-content>   and then in host component wrap content with div and class.

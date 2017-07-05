@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1, context_1) {
+System.register(['angular2/core', './courses.component', './favorite.component', './like.component', './summary.pipe', './contact-form.component', './subscription-form.component', './change-password-form.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,21 +10,47 @@ System.register(['angular2/core'], function(exports_1, context_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
+    var core_1, courses_component_1, favorite_component_1, like_component_1, summary_pipe_1, contact_form_component_1, subscription_form_component_1, change_password_form_component_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (courses_component_1_1) {
+                courses_component_1 = courses_component_1_1;
+            },
+            function (favorite_component_1_1) {
+                favorite_component_1 = favorite_component_1_1;
+            },
+            function (like_component_1_1) {
+                like_component_1 = like_component_1_1;
+            },
+            function (summary_pipe_1_1) {
+                summary_pipe_1 = summary_pipe_1_1;
+            },
+            function (contact_form_component_1_1) {
+                contact_form_component_1 = contact_form_component_1_1;
+            },
+            function (subscription_form_component_1_1) {
+                subscription_form_component_1 = subscription_form_component_1_1;
+            },
+            function (change_password_form_component_1_1) {
+                change_password_form_component_1 = change_password_form_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
+                    this.isFav = true;
+                    this.Likes = 5;
+                    this.isLiked = true;
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: '<h1>My First Angular App</h1>'
+                        template: "'<h1>My First Angular App</h1>\n        <courses></courses>\n        <favorite [isFavorite]=\"isFav\"></favorite>\n        <like [isLiked]=\"isLiked\" [Likes] = \"Likes\"></like>'\n        <contact-form></contact-form>\n        <password-form></password-form>",
+                        directives: [courses_component_1.CoursesComponent, favorite_component_1.FavoriteComponent, like_component_1.LikeComponent, contact_form_component_1.ContactFormComponent, subscription_form_component_1.SubscriptionFormComponent, change_password_form_component_1.ChangePasswordFormComponent],
+                        pipes: [summary_pipe_1.SummaryPipe]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
